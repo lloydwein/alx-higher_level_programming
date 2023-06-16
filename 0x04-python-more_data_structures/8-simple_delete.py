@@ -10,8 +10,6 @@ def simple_delete(a_dictionary, key=""):
     Return:
         the dictionnary updated
 """
-
-
     if key in a_dictionary:
         del a_dictionary[key]
 
