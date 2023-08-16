@@ -1,2 +1,4 @@
-reates table
-CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
+-- creates a table first_table in current database
+-- does not fail if table exists
+CREATE TABLE IF NOT EXISTS first_table (id INT,
+name VARCHAR(256));
